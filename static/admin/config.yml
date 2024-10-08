@@ -5,6 +5,9 @@ backend:
   site_domain: https://netlify-cms-cloudflare-pages-ed3.pages.dev
   base_url: https://netlify-cms-cloudflare-pages-ed3.pages.dev
   auth_endpoint: /api/auth
+  auth:
+    clientId: Ov23li55q7zj0NT2kUnU
+    clientSecret: ab34cdac6ba6fa6cc49fc56b2f5fa08c9f6a43ac
 media_folder: static/img
 public_folder: /img
 collections:
