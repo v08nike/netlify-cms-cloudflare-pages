@@ -3,7 +3,7 @@ backend:
   repo: v08nike/netlify-cms-cloudflare-pages
   branch: main # Branch to update (optional; defaults to master)
   site_domain: https://netlify-cms-cloudflare-pages-ed3.pages.dev
-  base_url: https://netlify-cms-cloudflare-pages-ed3.pages.dev/admin
+  base_url: https://netlify-cms-cloudflare-pages-ed3.pages.dev/static/admin
   auth_endpoint: /api/auth
 media_folder: static/img
 public_folder: /img
