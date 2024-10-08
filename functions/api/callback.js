@@ -17,8 +17,6 @@ function renderBody(status, content) {
 }
 
 export async function onRequest(context) {
-    console.log(context.env);
-
     const {
         request, // same as existing Worker API
         env, // same as existing Worker API
@@ -28,8 +26,8 @@ export async function onRequest(context) {
         data, // arbitrary space for passing data between middlewares
     } = context;
 
-    const client_id = env.GITHUB_CLIENT_ID;
-    const client_secret = env.GITHUB_CLIENT_SECRET;
+    const client_id = "Ov23li55q7zj0NT2kUnU";
+    const client_secret = "ab34cdac6ba6fa6cc49fc56b2f5fa08c9f6a43ac";
 
     try {
         const url = new URL(request.url);

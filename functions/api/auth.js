@@ -1,6 +1,4 @@
 export async function onRequest(context) {
-    console.log(context.env);
-    
     const {
         request, // same as existing Worker API
         env, // same as existing Worker API
@@ -10,7 +8,7 @@ export async function onRequest(context) {
         data, // arbitrary space for passing data between middlewares
     } = context;
 
-    const client_id = env.GITHUB_CLIENT_ID;
+    const client_id = "Ov23li55q7zj0NT2kUnU";
 
     try {
         const url = new URL(request.url);
