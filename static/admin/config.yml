@@ -4,7 +4,6 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
   site_domain: https://netlify-cms-cloudflare-pages-ed3.pages.dev
   base_url: https://netlify-cms-cloudflare-pages-ed3.pages.dev
-  auth_endpoint: /api/auth
 media_folder: static/img
 public_folder: /img
 collections:
