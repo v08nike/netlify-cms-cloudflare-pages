@@ -17,6 +17,8 @@ function renderBody(status, content) {
 }
 
 export async function onRequest(context) {
+    console.log(context.env);
+
     const {
         request, // same as existing Worker API
         env, // same as existing Worker API
